@@ -1,0 +1,137 @@
+$color-blue: hsl(223, 87%, 63%);
+$pale-blue: hsl(223, 100%, 88%);
+$light-red: hsl(354, 100%, 66%);
+$gray: hsl(0, 0%, 59%);
+$dark-blue: hsl(209, 33%, 12%);
+$color-silver: silver;
+$width-responsive: 600px;
+
+body {
+  margin: 0 auto;
+  font-size: 20px;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 90px;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+
+.container {
+    &__soon {
+        display: flex;
+        justify-content: center;
+    
+        &--color {
+          color: $gray;
+          font-weight: 10px;
+          font-weight: normal;
+        }
+      }
+      &__subscribe {
+        display: flex;
+        justify-content: center;
+        font-weight: normal;
+}
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+
+  &__input {
+    &--email {
+      border-radius: 30px;
+      padding: 20px;
+      width: 360px;
+      margin: 15px;
+     
+
+    }
+  }
+  &__button {
+    &--submit {
+      border-radius: 30px;
+      padding: 15px;
+      width: 130px;
+      margin: 15px;
+      background-color: $color-blue;
+      color: white;
+    }
+  }
+  
+}
+.dash{
+    display: flex;
+    justify-content: center;
+    &__dashboard--imgg{
+      width: $width-responsive;
+    }
+    
+
+}
+
+#social{
+  display: flex;
+  justify-content: center;
+  color: $color-blue;
+  .fab{
+    margin: 10px;
+    border: 1px solid $gray;
+    border-radius: 19px;
+    padding: 10px;
+    &:hover{
+      background-color: $light-red;
+    }
+  }
+}
+h4 {
+  display: flex;
+  justify-content: center;
+  font-size: 10px;
+  color: $gray;
+  font-weight: normal;
+}
+
+footer{
+  .attribution{
+    color:$color-blue;
+    a{
+      text-decoration: none;
+      color:$color-blue;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+    
+  .form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  
+    &__input {
+      
+    }
+    &__button {
+      &--submit {
+        width: $width-responsive/1.5;
+      }
+    }
+    
+  }
+  .dash{
+    
+    &__dashboard--imgg{
+      width: 80%
+    }
+    
+
+}
+
+
+    } 

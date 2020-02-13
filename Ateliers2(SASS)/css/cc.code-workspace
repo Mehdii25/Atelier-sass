@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "C:\\Users\\youcode\\Desktop\\Worshops\\Ateliers2(SASS)\\sass"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "C:\\Users\\youcode\\Desktop\\Worshops\\Ateliers2(SASS)\\images"
+		},
+		{
+			"path": "C:\\Users\\youcode\\Desktop\\Worshops\\Ateliers2(SASS)\\js"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "css"
+	}
+}

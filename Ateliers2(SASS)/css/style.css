@@ -1,0 +1,82 @@
+body {
+  margin: 0 auto;
+  font-size: 20px;
+  font-family: "Libre Franklin", sans-serif; }
+
+.logo {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 90px;
+  padding-top: 4rem;
+  padding-bottom: 2rem; }
+
+.container__soon {
+  display: flex;
+  justify-content: center; }
+  .container__soon--color {
+    color: #969696;
+    font-weight: 10px;
+    font-weight: normal; }
+
+.container__subscribe {
+  display: flex;
+  justify-content: center;
+  font-weight: normal; }
+
+.form {
+  display: flex;
+  justify-content: center; }
+  .form__input--email {
+    border-radius: 30px;
+    padding: 20px;
+    width: 360px;
+    margin: 15px; }
+  .form__button--submit {
+    border-radius: 30px;
+    padding: 15px;
+    width: 130px;
+    margin: 15px;
+    background-color: #4f7df3;
+    color: white; }
+
+.dash {
+  display: flex;
+  justify-content: center; }
+  .dash__dashboard--imgg {
+    width: 600px; }
+
+#social {
+  display: flex;
+  justify-content: center;
+  color: #4f7df3; }
+  #social .fab {
+    margin: 10px;
+    border: 1px solid #969696;
+    border-radius: 19px;
+    padding: 10px; }
+    #social .fab:hover {
+      background-color: #ff5263; }
+
+h4 {
+  display: flex;
+  justify-content: center;
+  font-size: 10px;
+  color: #969696;
+  font-weight: normal; }
+
+footer .attribution {
+  color: #4f7df3; }
+  footer .attribution a {
+    text-decoration: none;
+    color: #4f7df3; }
+
+@media only screen and (max-width: 600px) {
+  .form {
+    display: flex;
+    flex-direction: column;
+    text-align: center; }
+    .form__button--submit {
+      width: 400px; }
+  .dash__dashboard--imgg {
+    width: 80%; } }
